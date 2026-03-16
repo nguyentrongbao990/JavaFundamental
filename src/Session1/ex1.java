@@ -7,6 +7,6 @@ public class ex1 {
         Scanner input = new Scanner(System.in);
         System.out.println("Nhập bán kính: ");
         double radius = Double.parseDouble(input.nextLine());
-        System.out.printf("Diện tích hình tròn: %.2f\n",Math.PI * radius * radius);
+        System.out.printf("Diện tích hình tròn: %.2f\n", Math.PI * radius * radius);
     }
 }
